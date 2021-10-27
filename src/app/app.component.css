@@ -7,6 +7,11 @@
   border-left: 1px solid #DDDDDD;
   border-right: 1px solid #DDDDDD;
   box-shadow: 0 0 15px #DDDDDD;
+  overflow: scroll;
+}
+
+.page section{ /*追加*/
+  margin: 0 10px 30px;
 }
 
 .page .card .media-body {
@@ -47,6 +52,15 @@
   background-color: #5cb85c;
 }
 
-.page .chart-form {
-  margin: 20px 0;
+.page .page-footer{ /*追加*/
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 10px;
+  bottom: 0;
+  height: 55px;
+  width: 100%;
+  max-width: 958px;
+  background-color: #fff;
+  border-top: 1px solid #DDDDDD;
 }
